@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100&display=swap');
+
+
+
+h1,
+div.name {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 25px;
+    font-size: 150px;
+    color: #ffbc94;
+    background-color: #B86B77;
+}
+
+.name {
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+
+h2 {
+    font-size: 50px;
+    color: #B86B77;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 50px;
+    color: #B86B77;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h4 {
+    font-size: 75px;
+    color: #B86B77;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: -85px;
+    margin-left: 35px;
+    margin-right: 15px;
+}
+
+h5 {
+    font-size: 55px;
+    color: #B86B77;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 15px;
+}
+
+h6 {
+    font-size: 25px;
+    color: #B86B77;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 15px;
+}
+
+.skills {
+    margin-bottom: 15px;
+    margin-top: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.projects {
+    margin-bottom: 15px;
+    margin-top: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #B86B77;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 0 0 35px;
+}
+
+body {
+    /* background: url("https://image.freepik.com/free-photo/close-up-white-marble-texture-background_53876-63512.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background-color: #DDE1E4;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #B86B77;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.brief {
+    font-size: 30px;
+    color: #B86B77;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.quote {
+    font-size: 25px;
+    color: #B86B77;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.bio {
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 75px;
+    margin-bottom: 45px;
+    margin-left: 5px;
+    margin-right: 45px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #B86B77;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+
+.footer a,
+.header a {
+    float: left;
+    color: #E8A187;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header a:hover,
+.footer a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 4px;
+}
+
+.header a.active,
+.footer a.active {
+    background-color: #E8A187;
+    color: white;
+    border-radius: 4px;
+}
+
+.header-right {
+    float: right;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #B86B77;
+    margin-bottom: 15px;
+    margin-top: 95px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+
+.wrapper-contact {
+    float: left;
+    object-fit: contain;
+    width: 5%;
+    margin-top: 100px;
+
+    margin-left: 35px;
+    /* margin-right: 15px; */
+    overflow: auto;
+}
+
+
+.wrapper-about {
+    float: left;
+    object-fit: contain;
+    width: 5%;
+    margin-top: 235px;
+    /* margin-bottom: 9px; */
+    margin-left: 15px;
+    /* margin-right: 15px; */
+    overflow: auto;
+}
+
+.wrapper-project {
+    float: left;
+    object-fit: contain;
+    width: 5%;
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+    margin-left: 15px;
+    /* margin-right: 15px; */
+    overflow: auto;
+}
+
+.wrapper-skills {
+    float: left;
+    object-fit: contain;
+    width: 5%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    /* margin-right: 15px; */
+    overflow: auto;
+}
+
+
+.wrappers {
+    float: right;
+    object-fit: contain;
+    width: 27%;
+    margin-top: -145px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 45px;
+    overflow: auto;
+}
+
+.btn-send {
+    color: #B86B77;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.lang,
+.frame-lib,
+.ss,
+.other {
+    text-align: center;
+    font-size: 38px;
+}
+
+.lang-center,
+.frames-libs,
+.ssl,
+.other-skills {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.fab-html,
+.fab-js,
+.fab-python,
+.fab-java,
+.fab-node,
+.fab-react,
+.fab-angular,
+.fab-bootstrap,
+.fab-sass,
+.fab-css,
+.fab-linux,
+.fab-adobe {
+    font-size: 85px;
+    margin: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: center;
+    border-radius: 5%;
+}
+
+
+.projects-top {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.projects-bottom {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.flipCard,
+.designhub,
+.something {
+    width: auto;
+    height: auto;
+    margin: 90px;
+}
+
+.sk,
+.nsits,
+.vk {
+    width: auto;
+    height: auto;
+    margin: 90px;
+}
+
+div.contact-form {
+    display: block;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+    width: 30%;
+    padding: 5em;
+    border: 1px solid #FFBC94;
+    border-radius: 1em;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 390px;
+    text-align: justify;
+    box-sizing: border-box;
+    border: 1px solid #E8A187;
+    border-radius: 2.5px;
+}
+
+input,
+label {
+    display: block;
+}
+
+.form-group,
+.form-control {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+.form-control,
+.form-group {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    color: #B86B77;
+}
+
+.animate__animated.animate__rollIn {
+    --animate-duration: 2s;
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 1s;
+}
+
+.animate__animated.animate__rotateIn {
+    --animate-duration: 1s;
+}
+
+.animate__animated.animate__flip {
+    --animate-duration: 1s;
+}
+
+.animate__animated.animate__jackInTheBox {
+    --animate-duration: 2s;
+}
