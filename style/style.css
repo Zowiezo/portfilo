@@ -1,4 +1,4 @@
-/* body,
+body,
 html {
   background-color: #fdfcfa;
   margin: 10px;
@@ -130,7 +130,6 @@ ul li:hover:nth-child(1) a:after {
   background: #4a69ad;
 }
 
-
 .btn-primary {
   background-color: #007bff;
   color: #fff;
@@ -144,4 +143,4 @@ ul li:hover:nth-child(1) a:after {
 .btn-danger {
   background-color: #dc3545;
   color: #fff;
-} */
+}
